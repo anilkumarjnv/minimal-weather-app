@@ -22,10 +22,11 @@ A sleek and minimalistic weather app built with Flutter that provides real-time 
 ---
 
 ## **Screenshots**  
-
-| **Current Location Weather** | **Search City Weather** |  
-|-------------------------------|--------------------------|  
-| ![Current Location Weather](link-to-screenshot) | ![Search City Weather](link-to-screenshot) |  
+ 
+| ![Screenshots1](assets/screenshots/Screenshot1.jpg) |
+| ![Screenshots2](assets/screenshots/Screenshot2.jpg) |
+| ![Screenshots3](assets/screenshots/Screenshot3.jpg) |
+| ![Screenshots4](assets/screenshots/Screenshot4.jpg) |
 
 ---
 
