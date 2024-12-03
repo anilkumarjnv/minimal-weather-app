@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+// ignore: unused_import
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:lottie/lottie.dart';
@@ -6,14 +8,14 @@ import 'package:weather_app/models/weather_model.dart';
 import 'package:weather_app/services/weather_service.dart';
 
 class WeatherPage extends StatefulWidget {
-  const WeatherPage({super.key});
+  WeatherPage({super.key});
 
   @override
   State<WeatherPage> createState() => _WeatherPageState();
 }
 
 class _WeatherPageState extends State<WeatherPage> {
-  final _weatherService = WeatherService('8caefff9532d3b0e87ca454c0ec486e3');
+  final _weatherService = WeatherService();
   Weather? _weather;
   String _statusMessage = "Fetching weather data...";
   final TextEditingController _cityController = TextEditingController();
